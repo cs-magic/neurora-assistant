@@ -1,9 +1,9 @@
 import AssistantIco from "@assets/branding/assistant/assistant-logo_white.ico";
 import { AssistantBanner } from "@cs-magic/assistant-frontend-common/components/assistant-banner";
+import BaseLayout from "@cs-magic/react/components/base.layout";
 import { Footer } from "@cs-magic/react/components/footer";
 import { Main } from "@cs-magic/react/components/main";
 import { Navbar } from "@cs-magic/react/components/navbar";
-import BaseLayout from "packages/frontend/src/layouts/base.layout";
 import { Metadata, type Viewport } from "next";
 import React from "react";
 
@@ -32,12 +32,16 @@ export default function RootLayout({
   // console.log(ansiColors.red("== RootLayout =="))
 
   return (
-    <BaseLayout>
-      <Navbar productBanner={<AssistantBanner />} />
+    <html lang={"en"} suppressHydrationWarning>
+      <body>
+        <BaseLayout>
+          <Navbar productBanner={<AssistantBanner />} />
 
-      <Main>{children}</Main>
+          <Main>{children}</Main>
 
-      <Footer />
-    </BaseLayout>
+          <Footer />
+        </BaseLayout>
+      </body>
+    </html>
   );
 }
