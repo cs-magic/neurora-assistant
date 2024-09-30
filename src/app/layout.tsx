@@ -3,7 +3,7 @@ import { AssistantBanner } from "@cs-magic/assistant-frontend-common/components/
 import { Footer } from "@cs-magic/react/components/footer";
 import { Main } from "@cs-magic/react/components/main";
 import { Navbar } from "@cs-magic/react/components/navbar";
-import BaseLayout from "@cs-magic/react/layouts/base";
+import BaseLayout from "packages/frontend/src/layouts/base.layout";
 import { Metadata, type Viewport } from "next";
 import React from "react";
 
