@@ -19,7 +19,7 @@ import {
 import { cardWatermarkTextAtom } from "@/store/card.request.atom";
 import { getPlatformName } from "@/utils/card-platform/get-platform-name";
 
-import CsMagicBlackLogoSvg from "@assets/branding/neurora/neurora_logo_1280.svg";
+import CsMagicBlackLogoSvg from "@assets/branding/neurora/neurora_logo_black_trans_1280.svg";
 import { UserAvatar } from "./user-avatar";
 
 /**
