@@ -1,6 +1,6 @@
 {
   "extends": [
-    "../../tsconfig.node.json"
+    "../../../tsconfig.node.json"
   ],
   "compilerOptions": {
     "outDir": "dist",
@@ -13,10 +13,10 @@
   ],
   "references": [
     {
-      "path": "../../packages/common"
+      "path": "../../../packages/common"
     },
     {
-      "path": "../../packages/llm"
+      "path": "../../../packages/llm"
     }
   ]
 }
