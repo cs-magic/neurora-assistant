@@ -7,6 +7,9 @@ import { Navbar } from "@cs-magic/react/components/navbar";
 import { Metadata, type Viewport } from "next";
 import React from "react";
 
+import "@assets/styles/main.css";
+
+
 export const metadata: Metadata = {
   title: "飞脑",
   description: "更像真人的AI社交助理",

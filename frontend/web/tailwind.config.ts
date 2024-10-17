@@ -4,9 +4,9 @@ import plugin from "tailwindcss/plugin";
 const config = {
   darkMode: ["class"],
   content: [
-    "../../node_modules/@cs-magic/shadcn/dist/**/*",
-    "../../node_modules/@cs-magic/react/dist/**/*",
-    "../../node_modules/@cs-magic/assistant-frontend-common/dist/**/*",
+    "../../../../node_modules/@cs-magic/shadcn/dist/**/*",
+    "../../../../node_modules/@cs-magic/react/dist/**/*",
+    "../../../../node_modules/@cs-magic/assistant-frontend-common/dist/**/*",
     "./src/**/*.{ts,tsx}",
   ],
   prefix: "",

@@ -15,7 +15,7 @@ import {
 } from "@cs-magic/shadcn/ui/card";
 import { Label } from "@cs-magic/shadcn/ui/label";
 
-import { useDraftSession } from "./use-user";
+import { useDraftSession } from "../../hooks/use-user";
 import { UserInputAvatar } from "@cs-magic/assistant-frontend-common/components/user-input-avatar";
 import { UserInputName } from "@cs-magic/assistant-frontend-common/components/user-input-name";
 import { UserSignOutButton } from "@cs-magic/assistant-frontend-common/components/user-sign-out-button";
