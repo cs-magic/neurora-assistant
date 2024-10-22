@@ -1,0 +1,3 @@
+[submodule "frontend/web-v2"]
+	path = frontend/web-v2
+	url = git@github.com:cs-magic/neurora-assistant-web-v2.git
