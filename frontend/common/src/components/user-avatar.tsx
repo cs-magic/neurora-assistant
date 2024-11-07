@@ -68,7 +68,9 @@ export const UserAvatar = ({
         </Avatar>
       </VerticalAspectRatio>
 
-      {withName && <span>{user?.name}</span>}
+      {withName && (
+        <span className={"overflow-ellipsis text-ellipsis"}>{user?.name}</span>
+      )}
     </div>
   );
 };
