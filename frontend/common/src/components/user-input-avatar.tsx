@@ -2,8 +2,8 @@
 
 import { uploadFile } from "@cs-magic/common/oss/oss.server";
 import { Label } from "@cs-magic/shadcn/ui/label";
+import { UserAvatar } from "@cs-magic/react/components/user-avatar";
 
-import { UserAvatar } from "./user-avatar";
 import { useDraftSession } from "../hooks/use-user";
 
 export const UserInputAvatar = () => {

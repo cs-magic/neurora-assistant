@@ -1,5 +1,6 @@
 import { useAtom } from "jotai";
 import Image from "next/image";
+import { UserAvatar } from "packages/frontend/src/components/user-avatar";
 import { QRCodeSVG } from "qrcode.react";
 import { forwardRef } from "react";
 
@@ -20,7 +21,6 @@ import { cardWatermarkTextAtom } from "@/store/card.request.atom";
 import { getPlatformName } from "@/utils/card-platform/get-platform-name";
 
 import CsMagicBlackLogoSvg from "@assets/branding/neurora/neurora_logo_black_trans_1280.svg";
-import { UserAvatar } from "./user-avatar";
 
 /**
  * null optional nullish
