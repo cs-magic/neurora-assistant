@@ -33,7 +33,6 @@
     "wechaty-puppet": "workspace:^"
   },
   "devDependencies": {
-    "@cs-magic/tools": "workspace:^",
     "@types/ansicolors": "^0",
     "@types/lodash-es": "^4",
     "@types/react": "*",

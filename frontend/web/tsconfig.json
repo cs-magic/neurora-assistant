@@ -1,5 +1,5 @@
 {
-  "extends": "../../../../tsconfig.dom.json",
+  "extends": "../../../../packages/tools/ts-config/tsconfig.dom.json",
   "compilerOptions": {
 //    "module": "CommonJS",
     "moduleResolution": "Bundler",
@@ -36,7 +36,7 @@
     "paths": {
       "@/*": [
         "./src/*",
-        "./public/*",
+        "./public/*"
       ],
       "@assets/*": [
         "../../../../assets/*"
@@ -61,6 +61,6 @@
   ],
   "references": [
     {"path":  "../../backend"},
-    {"path": "../common"},
+    {"path": "../common"}
   ]
 }

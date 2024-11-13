@@ -1,6 +1,6 @@
 {
   "extends": [
-    "../../../../tsconfig.dom.json"
+    "../../../../packages/tools/ts-config/tsconfig.dom.json"
   ],
   "compilerOptions": {
     "rootDir": "src",
@@ -22,7 +22,7 @@
     "./src/**/*.json",
   ],
   "references": [
-    {"path": "../../../../packages/frontend"},
+    {"path": "../../../../packages/frontend/react"},
     {"path": "../../backend"},
   ]
 }
